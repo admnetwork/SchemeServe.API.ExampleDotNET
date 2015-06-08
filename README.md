@@ -1,2 +1,2 @@
 # SchemeServe.API.ExampleDotNET
-Example insurance website written in PHP which uses the SchemeServe API.
+A simple .Net client with example code of how to query SchemeServe's API. 

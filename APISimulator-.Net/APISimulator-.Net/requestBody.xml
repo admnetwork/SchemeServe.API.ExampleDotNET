@@ -1,0 +1,308 @@
+﻿<case xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <questionset>
+    <questionpage>
+      <questionpageid>Page5</questionpageid>
+      <questionpagename>Client Details</questionpagename>
+      <questions>
+        <question>
+          <helptext />
+          <tag />
+          <type>Client.ContactName</type>
+          <questionid>RequestedClientName</questionid>
+          <description>Client Name</description>
+          <answers>
+            <answer>
+              <clientname>
+                <firstname><![CDATA[Kosta]]></firstname>
+                <surname><![CDATA[Hristov]]></surname>
+                <title><![CDATA[Mr]]></title>
+              </clientname>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>Client.Address</type>
+          <questionid>RequestedClientAddress</questionid>
+          <description>Client Address</description>
+          <answers>
+            <answer>
+              <address>
+                <addressline1><![CDATA[8 waldegrave road, teddington]]></addressline1>
+                <addressline2><![CDATA[8 waldegrave road, teddington]]></addressline2>
+                <town>London</town>
+                <county>London</county>
+                <postcode><![CDATA[tw11 8gt]]></postcode>
+              </address>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>DatePicker</type>
+          <questionid>DOB</questionid>
+          <description>What is your date of birth?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[1984-01-27]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>FileLookup</type>
+          <questionid>1134RequestedOccCode</questionid>
+          <description>What is your occupation?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[computer programmer]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>Client.Email</type>
+          <questionid>2347ClientEmail</questionid>
+          <description>Client Email</description>
+          <answers>
+            <answer>
+              <description />
+              <value><![CDATA[john.smith.rese@gmail.com]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>Client.Phone</type>
+          <questionid>RequestedClientPhone</questionid>
+          <description>Home telephone number</description>
+          <answers>
+            <answer>
+              <value><![CDATA[02089412364]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>Client.MobilePhone</type>
+          <questionid>RequestedClientMobile</questionid>
+          <description>Mobile telephone number</description>
+          <answers>
+            <answer>
+              <value />
+            </answer>
+          </answers>
+        </question>
+      </questions>
+    </questionpage>
+    <questionpage>
+      <questionpageid>Page1</questionpageid>
+      <questionpagename>Cover Details</questionpagename>
+      <questions>
+        <question>
+          <helptext />
+          <tag />
+          <type>InceptionDate</type>
+          <questionid>RequestedInceptionDate</questionid>
+          <description>When would you like the policy to start?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[2015-02-28]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>DropDown</type>
+          <questionid>NoClaimsBonus</questionid>
+          <description>For how many years have you been claim free on caravan insurance (No Claims Bonus)?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[0]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>Number</type>
+          <questionid>NumberOfClaims</questionid>
+          <description>-Hidden- Number of claims in last 3 years</description>
+          <answers>
+            <answer>
+              <value><![CDATA[0]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>YesNo</type>
+          <questionid>AnyClaims5YearsYesNo</questionid>
+          <description>Have you had any losses or claims in the past 5 years on any touring caravan insurance policy?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[No]]></value>
+            </answer>
+          </answers>
+        </question>
+      </questions>
+    </questionpage>
+    <questionpage>
+      <questionpageid>Page2</questionpageid>
+      <questionpagename>Caravan Details</questionpagename>
+      <questions>
+        <question>
+          <helptext />
+          <tag />
+          <type>DropDown</type>
+          <questionid>StaticOrTourer</questionid>
+          <description>Is the caravan a static or tourer?</description>
+          <answers>
+            <answer>
+              <description>Tourer</description>
+              <value>Tourer</value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>FileLookup</type>
+          <questionid>ManufacturerName</questionid>
+          <description>Caravan make</description>
+          <answers>
+            <answer>
+              <value><![CDATA[HOBBY]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>Text</type>
+          <questionid>CaravanModel</questionid>
+          <description>Caravan model</description>
+          <answers>
+            <answer>
+              <value><![CDATA[a model]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>DropDown</type>
+          <questionid>Axel</questionid>
+          <description>Is the caravan single or twin axel?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[Single]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>DatePicker</type>
+          <questionid>CaravanYearManufacture</questionid>
+          <description>Year of manufacture</description>
+          <answers>
+            <answer>
+              <value><![CDATA[2005]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext>If you require new for old cover then this value must represent the full replacent value as new. If your caravan is more than 5 years old please enter the current market value.</helptext>
+          <tag />
+          <type>Money</type>
+          <questionid>CaravanValue</questionid>
+          <description>What is the value of your caravan (including the value of any motor mover)?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[4500]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext>Your contents should represent personal belongings, bedding, clothing, television etc.  Fixtures such as soft furnishings are part of the caravan sum assured.  Please also note that should you have any high value individual items such as iPads, laptops etc these should be covered as away from home items under your home insurance</helptext>
+          <tag />
+          <type>Money</type>
+          <questionid>ContentsSumInsured</questionid>
+          <description>What is the value of any contents to be covered?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[500]]></value>
+            </answer>
+          </answers>
+        </question>
+      </questions>
+    </questionpage>
+    <questionpage>
+      <questionpageid>Page3</questionpageid>
+      <questionpagename>Storage and Security</questionpagename>
+      <questions>
+        <question>
+          <helptext />
+          <tag />
+          <type>DropDown</type>
+          <questionid>WhereCaravanKept</questionid>
+          <description>Where is your caravan kept?</description>
+          <answers>
+            <answer>
+              <value><![CDATA[Caravan Park]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>YesNo</type>
+          <questionid>AlarmYesNo</questionid>
+          <description>Alarm</description>
+          <answers>
+            <answer>
+              <value><![CDATA[Yes]]></value>
+            </answer>
+          </answers>
+        </question>
+        <question>
+          <helptext />
+          <tag />
+          <type>YesNo</type>
+          <questionid>TrackerYesNo</questionid>
+          <description>Tracker</description>
+          <answers>
+            <answer>
+              <value><![CDATA[Yes]]></value>
+            </answer>
+          </answers>
+        </question>
+      </questions>
+    </questionpage>
+    <questionpage>
+      <questionpageid>Page4</questionpageid>
+      <questionpagename>Addons and Terms</questionpagename>
+      <questions />
+    </questionpage>
+    <questionpage>
+      <questionpageid>PageCalculation</questionpageid>
+      <questionpagename>Cover Details</questionpagename>
+      <questions />
+    </questionpage>
+  </questionset>
+  <schemeid>####</schemeid>
+  <archived>false</archived>
+  <client />
+  <deleted>false</deleted>
+  <!--<isquotation>true</isquotation>
+  <sendaccountverificationemail>true</sendaccountverificationemail>-->
+</case>
